@@ -1,3 +1,6 @@
+// John Carlo V. Sofer
+// CMSC 128 AB-6L
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -32,7 +35,7 @@ public class MyTester {
 	}
 
 	@Test
-	public void testBinarySearch12() {
+	public void testBinarySearch12() { // tests the binary search function
 		int[] array = new int[]{2, 4, 5, 8, 12, 13, 17, 20, 22, 27, 32, 36};
 		MyCalculator calcu = new MyCalculator();
 		int num = 12;
@@ -41,7 +44,7 @@ public class MyTester {
 		}
 	
 	@Test
-	public void testBinarySearch27() {
+	public void testBinarySearch27() { // tests the binary search function
 		int[] array = new int[]{2, 4, 5, 8, 12, 13, 17, 20, 22, 27, 32, 36};
 		int num = 27;
 		int set = calcu.binarySearch(array, 27);
